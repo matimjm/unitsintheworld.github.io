@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="calculator_icon.ico">
+    
+
+</head>
+<body>
+    <main>
+        
+        <nav class="nav_bar">
+            <div class="logo">Mateusz Marciniak IIa</div>
+            <ul class="nav-links">
+  
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        
+              <div class="menu">
+        
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+        
+                <li class="more_info">
+                  <a href="/">More Information</a>
+        
+                  <ul class="dropdown">
+                    <li><a href="si_system.html">SI System</a></li>
+                    <li><a href="imperial_system.html">Imperial System</a></li>
+                    <li><a href="non_si_units.html">Non-SI Units</a></li>
+                  </ul>
+                </li>
+  
+              </div>
+            </ul>
+          </nav>
+
+          <div
+              class="title">
+              <h1>Calculator</h1>
+          </div>
+
+
+          <div class="calculator">
+            <h2>Unit Converter</h2>
+            <div class="input-section">
+              <label for="input-value">Enter Value:</label>
+              <input type="number" id="input-value">
+            </div>
+            <div class="input-section">
+              <label for="input-unit">From:</label>
+              <select id="input-unit">
+                <!-- Options for input units -->
+                <option value="meter">Meter (m)</option>
+                <option value="kilometer">Kilometer (km)</option>
+                <option value="centimeter">Centimeter (cm)</option>
+                <option value="millimeter">Millimeter (mm)</option>
+                <option value="inch">Inch (in)</option>
+                <option value="foot">Foot (ft)</option>
+                <option value="yard">Yard (yd)</option>
+                <option value="mile">Mile (mi)</option>
+                <option value="kilogram">Kilogram (kg)</option>
+                <option value="gram">Gram (g)</option>
+                <option value="pound">Pound (lb)</option>
+                <option value="ounce">Ounce (oz)</option>
+                <option value="second">Second (s)</option>
+                <option value="minute">Minute (min)</option>
+                <option value="hour">Hour (hr)</option>
+                <option value="day">Day (day)</option>
+                <option value="week">Week (wk)</option>
+                <option value="month">Month (month)</option>
+                <option value="year">Year (yr)</option>
+              </select>
+            </div>
+            <div class="input-section">
+              <label for="output-unit">To:</label>
+              <select id="output-unit">
+                <!-- Options for output units -->
+                <option value="meter">Meter (m)</option>
+                <option value="kilometer">Kilometer (km)</option>
+                <option value="centimeter">Centimeter (cm)</option>
+                <option value="millimeter">Millimeter (mm)</option>
+                <option value="inch">Inch (in)</option>
+                <option value="foot">Foot (ft)</option>
+                <option value="yard">Yard (yd)</option>
+                <option value="mile">Mile (mi)</option>
+                <option value="kilogram">Kilogram (kg)</option>
+                <option value="gram">Gram (g)</option>
+                <option value="pound">Pound (lb)</option>
+                <option value="ounce">Ounce (oz)</option>
+                <option value="second">Second (s)</option>
+                <option value="minute">Minute (min)</option>
+                <option value="hour">Hour (hr)</option>
+                <option value="day">Day (day)</option>
+                <option value="week">Week (wk)</option>
+                <option value="month">Month (month)</option>
+                <option value="year">Year (yr)</option>
+              </select>
+            </div>
+            <div class="result-section">
+              <button id="convert-btn">Convert</button>
+              <p id="result"></p>
+            </div>
+          </div>
+          <script src="calculator.js"></script>
+    </main>
+    
+</body>
+</html>
