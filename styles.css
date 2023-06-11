@@ -53,7 +53,7 @@ body {
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
-    top: 35px;
+    top: 50px;
   }
   
   .dropdown li + li {
